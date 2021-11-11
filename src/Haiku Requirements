@@ -1,0 +1,13 @@
+The Haiku Requirements:
+
+- First sentence needs to be on 5 syllabes
+- Second sentence needs to be on 7 syllabes
+- Third sentence needs to be on 5 syllabes
+- A haiku made needs to be saved in another folder
+
+Suggestions:
+-/1 Make a counter that will go up if a vowel have been checked in a word that doesnt occure 2 times
+in a row.
+-/2 Make it so if it checks a consonant after a vowel to add 1 to a counter
+-/1 Make it that it need to be followed up by a consonant after a vowel before it counts it as a syllabel
+-/2 Make it override the current Haiku in the folder if got any time
