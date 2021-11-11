@@ -6,7 +6,7 @@ public class main {
         HaikuInput firstHaiku = new HaikuInput("", "", "", "");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome to Haiku maker!" + "Your Haikus syllabels should look like this: 5,7,5");
-
+        System.out.println("Keep every sentence to small letters, since the creator is lazy.");
         System.out.println("Let us begin with the authors name: ");
         String haikuAuthor = scanner.nextLine();
         firstHaiku.setAuthor(haikuAuthor);
