@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 public class main {
     public static void main(String[] args) {
         HaikuInput firstHaiku = new HaikuInput("", "", "", "");
@@ -53,9 +54,9 @@ public class main {
             } catch (Exception e) {
                 System.out.println("Not a valid haiku poem");
             }
-
-            System.out.println(firstHaiku);
-
         }
+        System.out.println(firstHaiku);
+        haikuSaver.saveHaiku(firstHaiku);
     }
+
 }

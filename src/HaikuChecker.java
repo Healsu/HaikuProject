@@ -6,17 +6,19 @@ public class HaikuChecker {
     public boolean haikuSyllabesCheck(String sentence) throws HaikuException {
 
         char[] lineAsArray = sentence.toCharArray();
-        int syllabelsCounter = 0;
+        int syllabelCounter = 0;
         for (int i = 0; i < lineAsArray.length; i++) {
             char c = lineAsArray[i];
+
             for (int j = 0; j < vowels.length; j++) {
                 if (c == vowels[j]){
+
                     for (int k = 0; k < consonant.length; k++) {
                         if(c+1 == consonant[k]){
-                            syllabelsCounter ++;
+                            syllabelCounter ++;
                     }
                 }}}}
-        if (syllabelsCounter == 5){
+        if (syllabelCounter == 5){
             return true;
         } else {
             throw new HaikuException();
@@ -25,17 +27,19 @@ public class HaikuChecker {
     public boolean haikuSyllabesCheck2(String sentence) throws HaikuException {
 
         char[] lineAsArray = sentence.toCharArray();
-        int syllabelsCounter = 0;
+        int syllabelCounter = 0;
         for (int i = 0; i < lineAsArray.length; i++) {
             char c = lineAsArray[i];
+
             for (int j = 0; j < vowels.length; j++) {
                 if (c == vowels[j]){
+
                     for (int k = 0; k < consonant.length; k++) {
                         if(c+1 == consonant[k]){
-                            syllabelsCounter ++;
+                            syllabelCounter ++;
                         }
                     }}}}
-        if (syllabelsCounter == 7){
+        if (syllabelCounter == 7){
             return true;
         } else {
             throw new HaikuException();
