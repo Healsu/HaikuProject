@@ -1,9 +1,13 @@
+import java.io.File;
 import java.util.Scanner;
 
 
 public class main {
     public static void main(String[] args) {
+        int amountHaikus = new File("Haikus").list().length;
         HaikuInput firstHaiku = new HaikuInput("", "", "", "");
+        firstHaiku.setHaikuCounter(amountHaikus);
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome to Haiku maker!" + "Your Haikus syllabels should look like this: 5,7,5");
         System.out.println("Keep every sentence to small letters, since the creator is lazy.");

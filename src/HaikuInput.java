@@ -31,6 +31,10 @@ public class HaikuInput {
     public void setThirdLine(String thirdLine) {
         this.thirdLine = thirdLine;
     }
+    public void setHaikuCounter(int currentCountFromHarddisk){
+        this.haikuCounter = currentCountFromHarddisk+1;
+        this.haikuID = this.haikuCounter;
+    }
 
     //tbh we never really use these, but we have them just in case we should need them
     public String getFirstLine() {

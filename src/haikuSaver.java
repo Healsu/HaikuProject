@@ -36,7 +36,7 @@ public class haikuSaver {
                     System.out.println("File already exists");
                     haikucounter += 1;
                     //We will create a new file and give it the same requirement, but "slightly" change the name of the file.
-                    File replacementHaiku = new File("C:\\Users\\admin\\Pictures\\Programmering\\HaikuProject\\Haikus\\"+userInput + haikucounter);
+                    File replacementHaiku = new File("Haikus\\"+userInput + haikucounter);
                     if(replacementHaiku.createNewFile()){
                         FileWriter writer = new FileWriter(replacementHaiku);
                         writer.write(haiku.toCsv());
