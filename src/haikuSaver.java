@@ -7,7 +7,6 @@ public class haikuSaver {
 
 
     public static void saveHaiku(HaikuInput haiku) {
-        //Kode der gemmer til harddisk
         int haikucounter = 0;
         haiku.toCsv();
 
