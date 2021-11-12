@@ -18,6 +18,7 @@ public class HaikuInput {
         this.thirdLine = thirdLine;
     }
 
+    //Setters to change the object we make in the main with the user input we get.
     public void setAuthor(String author){
         this.author = author;
     }
@@ -31,6 +32,7 @@ public class HaikuInput {
         this.thirdLine = thirdLine;
     }
 
+    //tbh we never really use these, but we have them just in case we should need them
     public String getFirstLine() {
         return firstLine;
     }
