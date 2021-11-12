@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class haikuSaver {
 
-
+    //Our method that saves haiku made by the user into a new file, in a direct folder.
     public static void saveHaiku(HaikuInput haiku) {
         int haikucounter = 0;
         haiku.toCsv();

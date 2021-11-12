@@ -11,6 +11,7 @@ public class main {
         String haikuAuthor = scanner.nextLine();
         firstHaiku.setAuthor(haikuAuthor);
 //////////////////////////////////////////////////
+        //I did the lazy solution and just made a for loop for a 100 times if the user doesnt meet the requirement, same with second and third haiku verse
         for (int i = 0; i < 100; i++) {
             try {
                 System.out.println("Write in your first sentence: ");
