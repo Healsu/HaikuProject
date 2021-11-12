@@ -10,3 +10,4 @@ in a row.
 -/2 Make it so if it checks a consonant after a vowel to add 1 to a counter
 -/1 Make it that it need to be followed up by a consonant after a vowel before it counts it as a syllabel
 -/2 Make it override the current Haiku in the folder if got any time or save it separate from eachother
+- If the same name for a file comes up, change it to the same but with a number in the end of the name
