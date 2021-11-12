@@ -16,7 +16,7 @@ public class haikuSaver {
                 Scanner scanner = new Scanner(System.in);
                 System.out.println("Write in your file name: ");
                 String userInput = scanner.nextLine();
-                File newHaiku = new File("C:\\Users\\admin\\Pictures\\Programmering\\HaikuProject\\Haikus\\"+userInput);
+                File newHaiku = new File("Haikus\\"+userInput);
                 if (newHaiku.createNewFile()) {
                     System.out.println("Haiku file created: " + newHaiku.getName());
                     FileWriter writer = new FileWriter(newHaiku);
