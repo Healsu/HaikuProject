@@ -43,7 +43,7 @@ public class HaikuInput {
 
     public String toCsv(){
         //We want the entire haiku returned set up this way, so we can use it in the method saveHaiku
-        return this.haikuID + ";" + this.author + ";" + this.firstLine + ";" + this.secondLine + ";" + this.thirdLine + ";";
+        return this.haikuID + " ; " + this.author + " ; " + this.firstLine + " ; " + this.secondLine + " ; " + this.thirdLine + ";";
     }
 
     @Override
